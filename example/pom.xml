@@ -37,7 +37,7 @@
                         </goals>
                         <configuration>
                             <packageName>com.jumbo</packageName>
-                            <openApiSpec>https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml</openApiSpec>
+                            <openApiSpec>${project.basedir}/src/main/resources/oapi.yml</openApiSpec>
                             <language>JAVA</language>
                         </configuration>
                     </execution>

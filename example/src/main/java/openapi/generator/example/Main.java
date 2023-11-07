@@ -1,4 +1,4 @@
-package oapi.generator;
+package openapi.generator.example;
 
 public class Main {
     public static void main(String[] args) {

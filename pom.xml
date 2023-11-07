@@ -4,10 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>oapi.generator</groupId>
   <artifactId>oapi-generator-maven-plugin</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>example</module>
-  </modules>
+  <packaging>maven-plugin</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <name>oapi-generator (maven-plugin)</name>

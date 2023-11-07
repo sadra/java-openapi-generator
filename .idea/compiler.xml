@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="example" target="20" />
       <module name="gen-maven-plugin" target="1.8" />
       <module name="java-openapi-generator-maven-plugin" target="20" />
     </bytecodeTargetLevel>

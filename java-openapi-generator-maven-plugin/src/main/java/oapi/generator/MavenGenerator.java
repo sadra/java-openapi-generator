@@ -14,14 +14,15 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Goal which touches a timestamp file.
+ *  Maven plugin for generating types from OpenAPI files.
  *
- * @goal touch
- * 
- * @phase process-sources
+ *  @goal generate
+ *  @phase generate-sources
+ *  @requiresDependencyResolution compile
+ *  @threadSafe true
+ *  @requiresProject true
  */
 
-//@Mojo(name = "generate", defaultPhase = LifecyclePhase.GENERATE_SOURCES, threadSafe = true)
 @Mojo(name = "generate", defaultPhase = LifecyclePhase.GENERATE_SOURCES, threadSafe = true)
 public class MavenGenerator extends AbstractMojo
 {

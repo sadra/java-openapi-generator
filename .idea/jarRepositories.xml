@@ -7,6 +7,11 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="GitHub Java OpenAPI Generator Packages Repository" />
+      <option name="url" value="https://maven.pkg.github.com/sadra/java-openapi-generator" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="java-openapi-generator" />
       <option name="name" value="java-openapi-generator" />
       <option name="url" value="https://maven.pkg.github.com/sadra/java-openapi-generator" />

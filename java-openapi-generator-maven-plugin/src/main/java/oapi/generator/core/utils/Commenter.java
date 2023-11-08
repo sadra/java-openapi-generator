@@ -21,12 +21,11 @@ public class Commenter {
         Matcher matcher = regexPattern.matcher(input);
 
         if (matcher.find()) {
-            String result = input.substring(0, matcher.start()) + input.substring(matcher.end());
-            result = result.replaceAll("io.swagger.codegen.v3.generators.java.JavaClientCodegen", "oapi.generator");
-            return specInfoComment + result;
+            input = input.substring(0, matcher.start()) + input.substring(matcher.end())
+                    .replaceAll("io.swagger.codegen.v3.generators.java.JavaClientCodegen", "oapi.generator");
         }
 
-        return input;
+        return specInfoComment+"\n"+input.trim();
     }
 
     /**
@@ -39,7 +38,6 @@ public class Commenter {
      */
     public static String getSpecInfoComment(String specTitle, String specVersion, String specDescription){
         StringBuilder comment = new StringBuilder();
-        final String LINE_SEPARATOR = System.getProperty("line.separator");
         comment.append("/**\n");
 
         if(specTitle != null){

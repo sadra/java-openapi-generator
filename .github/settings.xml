@@ -21,7 +21,7 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>openapi-generator</id>
+                    <id>github</id>
                     <name>GitHub Java OpenAPI Generator Packages Repository</name>
                     <url>https://maven.pkg.github.com/sadra/java-openapi-generator</url>
                 </repository>
@@ -31,8 +31,8 @@
 
     <servers>
         <server>
-            <id>openapi-generator</id>
-            <username>x-access-token</username>
+            <id>github</id>
+            <username>sadra</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>

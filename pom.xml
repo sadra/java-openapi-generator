@@ -18,7 +18,7 @@
 
   <distributionManagement>
     <repository>
-      <id>openapi-generator</id>
+      <id>github</id>
       <name>GitHub Java OpenAPI Generator Packages Repository</name>
       <url>https://maven.pkg.github.com/sadra/java-openapi-generator</url>
     </repository>

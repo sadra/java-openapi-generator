@@ -23,7 +23,7 @@
         <dependency>
             <groupId>oapi.generator</groupId>
             <artifactId>oapi-generator-maven-plugin</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
+            <version>1.0.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -32,7 +32,7 @@
             <plugin>
                 <groupId>oapi.generator</groupId>
                 <artifactId>oapi-generator-maven-plugin</artifactId>
-                <version>1.0.2-SNAPSHOT</version>
+                <version>1.0.3-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <id>generate</id>

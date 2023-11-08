@@ -11,7 +11,7 @@
 
   <artifactId>oapi-generator-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.3-SNAPSHOT</version>
 
   <name>oapi-generator (maven-plugin)</name>
   <description>maven plugin to build type from OpenAPI Spec</description>
